@@ -77,11 +77,11 @@ shiro被动检测插件：https://github.com/pmiaowu/BurpShiroPassiveScan
 
 ### 1、下载Xray和Rad放到跟脚本同一个目录下
 
-![image-20210703234117739](C:\Users\gp200\Desktop\Security_Tools\palmpay.co漏洞\images\image-20210703234117739.png)
+![image-20210703234117739](/images/image-20210703234117739.png)
 
 ### 2、需要扫描的域名列表放在ForHitKill目录下
 
-![image-20210703234156587](C:\Users\gp200\Desktop\Security_Tools\palmpay.co漏洞\images\image-20210703234156587.png)
+![image-20210703234156587](/images/image-20210703234156587.png)
 
 ### 3、Xray开启监听
 
