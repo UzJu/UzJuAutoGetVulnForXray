@@ -56,7 +56,7 @@ rad_windows_amd64.exe -t blog.catgames.cn -http-proxy 127.0.0.1:7777
 
 > ps：本来想弄个多线程的，就写了queue后来试了一下，你线程跑得再快，xray，那边跑得比较慢，跑得快也只会堆积请求，没啥意义，所以还不如慢慢的来。
 
-![image-20210703221737171](./images/image-20210703221737171.png)
+![image-20210703221737171](./images/S.png)
 
 然后挂着就可以了，网上还有部分教程可以联动burp，我在github搜了一下，由shiro的一些被动插件
 
