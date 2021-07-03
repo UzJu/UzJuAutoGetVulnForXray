@@ -69,4 +69,33 @@ shiro被动检测插件：https://github.com/pmiaowu/BurpShiroPassiveScan
 可以看到开始有一些奇怪的日志了，然后只需要挂机运气等着即可
 
 ![image-20210703222713672](./images/image-20210703222713672.png)
+## 三、如何使用和获取脚本
+
+我的github主页：https://github.com/uzju
+
+获取脚本：https://github.com/UzJu/UzJuAutoGetVulnForXray
+
+### 1、下载Xray和Rad放到跟脚本同一个目录下
+
+![image-20210703234117739](C:\Users\gp200\Desktop\Security_Tools\palmpay.co漏洞\images\image-20210703234117739.png)
+
+### 2、需要扫描的域名列表放在ForHitKill目录下
+
+![image-20210703234156587](C:\Users\gp200\Desktop\Security_Tools\palmpay.co漏洞\images\image-20210703234156587.png)
+
+### 3、Xray开启监听
+
+目前只写了Windows下的，暂时不支持Linux，代码简单，各位大佬可以自行修改（本来就没几行:）
+
+```bash
+xray_windows_amd64.exe webscan --listen 127.0.0.1:7777 --html-output test.html
+```
+
+### 4、启动
+
+```bash
+python3 MayBeCooooore.py
+```
+
+祝你好运！
 
