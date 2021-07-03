@@ -91,6 +91,8 @@ shiro被动检测插件：https://github.com/pmiaowu/BurpShiroPassiveScan
 xray_windows_amd64.exe webscan --listen 127.0.0.1:7777 --html-output test.html
 ```
 
+![image-20210703110526794](./images/1.png)
+
 ### 4、启动
 
 ```bash
